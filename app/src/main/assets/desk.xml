@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Desk ScollWallpaper="false" Version="1.0" VersionCode="1" Wallpaper="wall_1" WallpaperFill="0">
+
+    <CommonStyles>
+        <IconStyle>
+            <Layer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="" />
+            <ShowItemLayer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+            </ShowItemLayer>
+            <ShowItemLayer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+            </ShowItemLayer>
+        </IconStyle>
+    </CommonStyles>
+
+    <Screen Source="screen.xml">
+        <ScreenStyles>
+            <ScreenIconStyle Halign="" Height="" Margins="{1,1,0,0}" ShowLightMode="1" TextHalign=""
+                TextValign="" Valign="" Width="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="Text_bg" Image="application_background" Margins="" />
+            </ScreenIconStyle>
+            <FolderStyle>
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="appfunc_folderback" Margins="" />
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="OpenFolder" Image="appfunc_folder_open" Margins="" />
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="ColseFolder" Image="appfunc_folder_close_up" Margins="" />
+            </FolderStyle>
+            <Light Color="" Image="" Size="" />
+            <TrashStyle Color="">
+                <Trashing Halign="" Image="d_del" Margins="{1,1,0,0}" Valign="">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="trash_bg_normal" Margins="" />
+                </Trashing>
+                <Trashed Halign="" Image="del" Margins="{1,1,0,0}" Valign="">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="trash_bg_hover" Margins="" />
+                </Trashed>
+            </TrashStyle>
+            <Font Color="" Size="" />
+        </ScreenStyles>
+    </Screen>
+
+    <Indicator Source="indicator.xml">
+        <IndicatorStyles ShowMode="1" WhenScreenCount="">
+            <IndicatorItem Height="24" Identity="Dots" Margins="{1,1,0,0}" Width="24">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="Selected" Image="screennow" Margins="" />
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="UnSelected" Image="screenother" Margins="" />
+            </IndicatorItem>
+            <IndicatorItem Height="" Identity="Slide" Margins="{1,1,0,0}" Width="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
+                    Identity="Selected" Image="screennow" Margins="" />
+            </IndicatorItem>
+        </IndicatorStyles>
+    </Indicator>
+
+    <Preview Source="preview.xml">
+        <PreviewStyles LineItemCount="3">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="Home"
+                Image="preview_home_btn_focus" Margins="" />
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="NotHome"
+                Image="preview_home_btn" Margins="" />
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="Colseing"
+                Image="preview_del_btn_focus" Margins="" />
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="Colsed"
+                Image="preview_del_btn" Margins="" />
+            <Card Identity="CurrentScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_border_current" Margins="" />
+                </Item>
+            </Card>
+            <Card Identity="NomalScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_border" Margins="" />
+                </Item>
+            </Card>
+            <Card Identity="AddScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_addscreen" Margins="" />
+                </Item>
+            </Card>
+            <Card Identity="FocusScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_border_focus" Margins="" />
+                </Item>
+            </Card>
+            <Card Identity="FocusAddScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_addscreen_focus" Margins="" />
+                </Item>
+            </Card>
+            <Card Identity="DeleteScreen">
+                <Item Id="" Text="">
+                    <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+                        Identity="Background" Image="preview_deletescreen" Margins="" />
+                </Item>
+            </Card>
+        </PreviewStyles>
+    </Preview>
+
+    <Dock Source="dock.xml">
+        <DockSetting Background="dock" BackgroundFill="1" IsBackground="true" RowCount="2" />
+        <Notifys>
+            <NotifyItem Key="SMS" KeyWord=".SMS" Value="true" />
+            <NotifyItem Key="CALL" KeyWord=".CALL" Value="true" />
+            <NotifyItem Key="GMAIL" KeyWord=".GMAIL" Value="true" />
+        </Notifys>
+        <DockStyles Color="#FFFF9710" Height="" LineItemCount="5" Width="">
+            <DockIconStyle Halign="" Height="" Margins="{0,1,0,0}" Valign="" Width="" />
+            <SymtemDefualt>
+                <SymtemDockItem GestureIntent="" Index="0">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="phone" Margins="" />
+                </SymtemDockItem>
+                <SymtemDockItem GestureIntent="" Index="1">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="contacts" Margins="" />
+                </SymtemDockItem>
+                <SymtemDockItem GestureIntent="" Index="2">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="d_home" Margins="" />
+                </SymtemDockItem>
+                <SymtemDockItem GestureIntent="" Index="3">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="messaging" Margins="" />
+                </SymtemDockItem>
+                <SymtemDockItem GestureIntent="" Index="4">
+                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                        Image="browser" Margins="" />
+                </SymtemDockItem>
+            </SymtemDefualt>
+            <NoApplicationIcon GestureIntent="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="d_add" Margins="" />
+            </NoApplicationIcon>
+            <NullIcon GestureIntent="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+            </NullIcon>
+            <NotifyStyle Halign="" Margins="{1,1,0,0}" TextHalign="" TextValign="" Valign="">
+                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity=""
+                    Image="" Margins="" />
+            </NotifyStyle>
+        </DockStyles>
+    </Dock>
+
+    <GlMenu Column="" Identity="desk" Row="" SelectTextColor="#ff33b5e5" TextColor="#ffefefef"
+        UnselectTextColor="#ff919192">
+        <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="Background"
+            Image="glmenu_bg" Margins="" />
+        <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="ItemBackground"
+            Image="menu_selected" Margins="" />
+        <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="SelectTabLine"
+            Image="glmenu_select_topline" Margins="" />
+        <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill=""
+            Identity="UnSelectTabLine" Image="glmenu_unselect_topline" Margins="" />
+        <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity="Itemline"
+            Image="glmenu_item_line" Margins="" />
+        <Item Id="100" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_add" Margins="" />
+        </Item>
+        <Item Id="101" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_wallpaper" Margins="" />
+        </Item>
+        <Item Id="102" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_theme" Margins="" />
+        </Item>
+        <Item Id="103" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_gostore" Margins="" />
+        </Item>
+        <Item Id="104" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_screenedit" Margins="" />
+        </Item>
+        <Item Id="105" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_preference" Margins="" />
+        </Item>
+        <Item Id="106" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_syssetting" Margins="" />
+        </Item>
+        <Item Id="107" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_effect" Margins="" />
+        </Item>
+        <Item Id="108" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_golocker" Margins="" />
+        </Item>
+        <Item Id="109" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_gowidget" Margins="" />
+        </Item>
+        <Item Id="110" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_notification" Margins="" />
+        </Item>
+        <Item Id="111" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_language" Margins="" />
+        </Item>
+        <Item Id="112" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_update" Margins="" />
+        </Item>
+        <Item Id="113" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_share" Margins="" />
+        </Item>
+        <Item Id="114" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_grade" Margins="" />
+        </Item>
+        <Item Id="115" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_fb" Margins="" />
+        </Item>
+        <Item Id="116" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_restart" Margins="" />
+        </Item>
+        <Item Id="117" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_notificationbar" Margins="" />
+        </Item>
+        <Item Id="118" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_desklock" Margins="" />
+        </Item>
+        <Item Id="119" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_deskunlock" Margins="" />
+        </Item>
+        <Item Id="120" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_message" Margins="" />
+        </Item>
+        <Item Id="121" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_gobackup" Margins="" />
+        </Item>
+        <Item Id="124" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_gohandbook" Margins="" />
+        </Item>
+        <Item Id="130" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_appcenter" Margins="" />
+        </Item>
+        <Item Id="131" Text="">
+            <Wallpaper Border="" BorderColor="" BorderLine="" Color="" Fill="" Identity=""
+                Image="menuitem_gamezone" Margins="" />
+        </Item>
+    </GlMenu>
+
+</Desk>
