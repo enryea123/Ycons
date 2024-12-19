@@ -104,7 +104,7 @@
 
     <!-- booking -->
     <item
-        component="ComponentInfo{com.booking/com.booking.startup.HomeActivityDefaultIcon}"
+        component="ComponentInfo{com.booking/com.booking.startup.HomeActivity}"
         drawable="booking" />
 
     <!-- brain_it_on -->
@@ -324,6 +324,11 @@
         component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}"
         drawable="firefox" />
 
+    <!-- free2move -->
+    <item
+        component="ComponentInfo{com.car2go/activity.MainActivity}"
+        drawable="free2move" />
+
     <!-- free_now -->
     <item
         component="ComponentInfo{taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity}"
@@ -369,7 +374,7 @@
 
     <!-- google_authenticator -->
     <item
-        component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}"
+        component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}"
         drawable="google_authenticator" />
 
     <!-- google_calendar -->
@@ -584,7 +589,19 @@
 
     <!-- linkedin -->
     <item
-        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}"
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}"
+        drawable="linkedin" />
+    <item
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.FallFestivalActivityAlias}"
+        drawable="linkedin" />
+    <item
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.WinterFestivalActivityAlias}"
+        drawable="linkedin" />
+    <item
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.SpringFestivalActivityAlias}"
+        drawable="linkedin" />
+    <item
+        component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.SummerFestivalActivityAlias}"
         drawable="linkedin" />
 
     <!-- math_riddles -->
