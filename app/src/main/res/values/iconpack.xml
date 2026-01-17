@@ -5,9 +5,11 @@
         <item>aea</item>
         <item>airalo</item>
         <item>airdroid</item>
+        <item>amazon_atoz</item>
         <item>amazon_chime</item>
         <item>amazon_pong_paging</item>
         <item>amazon_prime_video</item>
+        <item>amazon_workdocs</item>
         <item>among_us</item>
         <item>angry_birds</item>
         <item>benessere_digitale</item>
@@ -16,6 +18,8 @@
         <item>bitwarden</item>
         <item>booking</item>
         <item>brainilis</item>
+        <item>bridge_athletic</item>
+        <item>bussola</item>
         <item>cabify</item>
         <item>calculator</item>
         <item>camera</item>
@@ -34,6 +38,8 @@
         <item>docu_sign</item>
         <item>dropbox</item>
         <item>dropsync</item>
+        <item>duckduckgo</item>
+        <item>edenred</item>
         <item>emt_madrid</item>
         <item>facebook</item>
         <item>facebook_messenger</item>
@@ -58,10 +64,15 @@
         <item>google_docs</item>
         <item>google_drive</item>
         <item>google_earth</item>
+        <item>google_files</item>
+        <item>google_findhub</item>
         <item>google_gemini</item>
         <item>google_keep</item>
         <item>google_keyboard</item>
+        <item>google_lens</item>
         <item>google_maps</item>
+        <item>google_meet</item>
+        <item>google_one</item>
         <item>google_pay</item>
         <item>google_photo</item>
         <item>google_play_store</item>
@@ -74,6 +85,7 @@
         <item>huawei_freebuds</item>
         <item>iberia</item>
         <item>icon</item>
+        <item>ilovepdf</item>
         <item>ing</item>
         <item>instagram</item>
         <item>iss</item>
@@ -81,9 +93,11 @@
         <item>kurzgesagt</item>
         <item>lichess</item>
         <item>linkedin</item>
+        <item>matrimonio</item>
         <item>messages</item>
         <item>messenger</item>
         <item>metatrader</item>
+        <item>microsoft_authenticator</item>
         <item>moovit</item>
         <item>multi_vnc</item>
         <item>music</item>
@@ -92,19 +106,32 @@
         <item>netflix</item>
         <item>nord_vpn</item>
         <item>nova_settings</item>
+        <item>oppo_ai_studio</item>
+        <item>oppo_camera</item>
+        <item>oppo_files</item>
+        <item>oppo_hey_melody</item>
+        <item>oppo_telecomando_ir</item>
+        <item>oppo_themes</item>
+        <item>oppo_transcribe</item>
+        <item>oppo_zen_space</item>
+        <item>outlook</item>
         <item>parchis</item>
+        <item>pixelcut</item>
         <item>pocketcasts</item>
         <item>pycode</item>
         <item>quip</item>
         <item>recorder</item>
         <item>retroarch</item>
+        <item>revolut</item>
         <item>ring</item>
         <item>runtastic</item>
         <item>ryanair</item>
         <item>sabadell</item>
         <item>sabadell_wallet</item>
+        <item>saily</item>
         <item>salud_madrid</item>
         <item>samsung_file_manager</item>
+        <item>samsung_goodlock</item>
         <item>samsung_store</item>
         <item>samsung_wear</item>
         <item>sap_concur</item>
@@ -131,6 +158,7 @@
         <item>ucla_mindful</item>
         <item>unobravo</item>
         <item>wallapop</item>
+        <item>weather</item>
         <item>webank</item>
         <item>webel</item>
         <item>whatsapp</item>
